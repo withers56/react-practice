@@ -10,6 +10,8 @@ const FavoritesContext = createContext({
 
 });
 
+//context will disappear once browser is refreashed because its only in local memory, if wanted it to presist woul need to use local storage or
+//store on a server database
 export function FavoritesContextProvider(props) {
     const [userFavorites, setUserFavorites] = useState([])
 
