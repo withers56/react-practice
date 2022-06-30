@@ -12,7 +12,7 @@ function MeetupsList(props) {
                     title={meetup.title}
                     address={meetup.address}
                     description={meetup.description}/>
-            )}
+            ).reverse()}
         </ul>
     )
 }
